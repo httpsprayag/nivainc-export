@@ -24,31 +24,31 @@ export const products = [
     name: "ceramic-tile",
     href: "ceramic-tile",
     image: "/assets/products/ceramic-tile.jpg",
-    id: 1,
-  },
-  {
-    name: "outdoor-pvers",
-    href: "outdoor-pvers",
-    image: "/assets/products/outdoorPavers.png",
-    id: 1,
+    id: 2,
   },
   {
     name: "Counter Tops & Slabs",
     href: "counter-tops-Slabs",
+    image: "/assets/products/outdoorPavers.png",
+    id: 3,
+  },
+  {
+    name: "outdoor-pavers",
+    href: "outdoor-pavers",
     image: "/assets/products/counterTopsSlabs.png",
-    id: 1,
+    id: 4,
   },
   {
     name: "Subway Tile",
     href: "subway-tile",
     image: "assets/products/SubayTile.jpg",
-    id: 1,
+    id: 5,
   },
   {
     name: "Tile Adhesive & Epoxy",
     href: "adhesive-epoxy",
     image: "assets/products/theAdhesiveaEpoxy.jpg",
-    id: 1,
+    id: 6,
   },
 ];
 

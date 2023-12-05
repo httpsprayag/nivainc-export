@@ -30,7 +30,7 @@ export const BlogCard = ({ title, blogImage, date, content, contentItems }) => {
           <p className="text-gray-600">{date}</p>
           <button
             onClick={() => setVisible(true)}
-            className="text-blue-500 border border-blue-400 hover:bg-blue-400 hover:text-white transition px-4 py-2 rounded-md"
+            className="text-[#034d94] border border-blue-400 hover:bg-[#034d94] hover:text-white transition px-4 py-2 rounded-md"
           >
             Read More
           </button>

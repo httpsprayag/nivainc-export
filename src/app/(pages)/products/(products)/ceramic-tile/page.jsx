@@ -13,7 +13,7 @@ const CeramicTiles = () => {
   ];
   return (
     <div className="h-screen px-4">
-      <p className="md:text-center text-blue-500 text-2xl pb-8 mt-8">
+      <p className="md:text-center text-[#034d94] text-2xl pb-8 mt-8">
         Ceramic Tiles
       </p>
       <motion.div
@@ -33,10 +33,10 @@ const CeramicTiles = () => {
               <>
                 <img
                   src={product.url}
-                  className="rounded-md object-cover h-full w-[100%]"
+                  className="rounded-t-md object-cover h-full w-[100%]"
                   alt={product.name}
                 />
-                <div className="rounded-b-lg w-full bg-blue-500 text-white p-2 text-center">
+                <div className="rounded-b-lg w-full bg-[#034d94] text-white p-2 text-center">
                   <p>{product.size}</p>
                 </div>
               </>

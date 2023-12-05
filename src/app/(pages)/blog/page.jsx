@@ -5,10 +5,10 @@ import { blogData } from "@/constants";
 import { LiaBlogSolid } from "react-icons/lia";
 const BlogPage = () => {
   return (
-    <div className="px-4 w-full">
+    <div className="px-4 w-full h-[calc(100vh-300px)]">
       <div className="flex mt-4 md:mt-12 items-center md:justify-center gap-3">
-        <LiaBlogSolid className="text-4xl text-blue-500 font-bold" />
-        <p className="font-semibold text-2xl text-blue-400">Our Blogs</p>
+        <LiaBlogSolid className="text-4xl text-[#034d94] font-bold" />
+        <p className="font-semibold text-2xl text-[#034d94]">Our Blogs</p>
       </div>
       <div className="mt-4 pb-10 mx-auto max-w-6xl gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {blogData?.map((blog, key) => (

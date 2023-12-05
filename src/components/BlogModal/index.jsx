@@ -19,7 +19,7 @@ export const BlogModal = ({
       onHide={handleClose}
     >
       <div className="px-2">
-        <p className="font-semibold text-xl text-blue-400">{title}</p>
+        <p className="font-semibold text-xl text-[#034d94]">{title}</p>
         <p className="mt-3 text-gray-500 text-base">{content}</p>
         <div className="mt-3">{contentList}</div>
       </div>

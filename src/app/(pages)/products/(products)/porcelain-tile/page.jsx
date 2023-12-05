@@ -38,7 +38,7 @@ import { itemVariants, staggerVariants } from "@/constants";
 const PorcelainTile = () => {
   return (
     <div className="w-full pb-8 mt-6 md:mt-20">
-      <p className="md:text-center text-xl text-blue-400 mb-6 md:mb-14 px-4">Porcelain Tiles</p>
+      <p className="md:text-center text-xl text-[#034d94] mb-6 md:mb-14 px-4">Porcelain Tiles</p>
       <motion.div
         className="grid sm:grid-cols-2 lg:grid-cols-3 lg:max-w-6xl mx-auto gap-4 px-4 lg:px-0 md:gap-10 "
         variants={staggerVariants}
@@ -56,10 +56,10 @@ const PorcelainTile = () => {
               <>
                 <img
                   src={product.url}
-                  className="rounded-md object-cover h-[225px] md:h-[300px] w-[100%]"
+                  className="rounded-t-md object-cover h-[225px] md:h-[300px] w-[100%]"
                   alt={product.name}
                 />
-                <div className="rounded-b-lg w-full bg-blue-500 text-white p-2 text-center">
+                <div className="rounded-b-lg w-full bg-[#034d94] text-white p-2 text-center">
                   <p>{product.size}</p>
                 </div>
               </>

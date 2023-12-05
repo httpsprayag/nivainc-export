@@ -5,6 +5,11 @@ import { motion } from "framer-motion";
 import { MdOutlineProductionQuantityLimits } from "react-icons/md";
 const ProductList = [
   {
+    name: "Porcelain Tile",
+    url: "porcelain-tile",
+    img: "/assets/products/porcelain-tile.png",
+  },
+  {
     name: "Adhesive Epoxy",
     url: "adhesive-epoxy",
     img: "/assets/products/theAdhesiveaEpoxy.jpg",
@@ -15,19 +20,14 @@ const ProductList = [
     img: "/assets/products/ceramic-tile.jpg",
   },
   {
-    name: "Counter Tops Slabs",
-    url: "counter-tops-Slabs",
+    name: "Outdoor pavers",
+    url: "outdoor-pavers",
     img: "/assets/products/counterTopsSlabs.png",
   },
   {
-    name: "Outdoor Pvers",
-    url: "outdoor-pvers",
+    name: "Counter Tops Slabs",
+    url: "counter-tops-Slabs",
     img: "/assets/products/outdoorPavers.png",
-  },
-  {
-    name: "Porcelain Tile",
-    url: "porcelain-tile",
-    img: "/assets/products/porcelain-tile.png",
   },
   {
     name: "Subway Tile",
@@ -51,8 +51,8 @@ const ProductsPage = () => {
     <div className="pb-8">
       <div className="mt-4 px-4 mx-auto sm:w-4/5 xl:max-w-6xl">
         <div className="flex items-center justify-start md:justify-center gap-3">
-          <MdOutlineProductionQuantityLimits className="text-3xl text-blue-400" />
-          <h1 className="md:text-center text-lg md:text-2xl my-8 text-blue-500">
+          <MdOutlineProductionQuantityLimits className="text-3xl text-[#034d94]" />
+          <h1 className="md:text-center text-lg md:text-2xl my-8 text-[#034d94]">
             Our Products
           </h1>
         </div>

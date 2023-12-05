@@ -15,7 +15,7 @@ export default function Home() {
           <div className="grid  md:place-items-center">
             <div className="flex flex-col gap-3 md:max-w-md sm:pr-4">
               <div className="flex items-center gap-2">
-                <ImCircleRight className="text-blue-500 text-3xl" />
+                <ImCircleRight className="text-[#034d94] text-3xl" />
                 <Heading>Leading the way</Heading>
               </div>
               <p className="text-lg md:text-xl font-bold text-gray-400">
@@ -51,7 +51,7 @@ export default function Home() {
 
       <section className="mt-8 md:px-8  px-4 text-justify py-6">
         <div className="mt- md:container md:justify-center md:mx-auto flex items-center gap-3">
-          <MdProductionQuantityLimits className="text-blue-500 text-3xl" />
+          <MdProductionQuantityLimits className="text-[#034d94] text-3xl" />
           <Heading isCenter>Product Portfolio</Heading>
         </div>
         <div className="mt-8 grid gap-4 md:max-w-5xl md:mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
@@ -67,7 +67,7 @@ export default function Home() {
                   alt={product.name}
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 group-hover:opacity-100 transition duration-300 ease-in-out">
-                  <p className="text-white text-lg font-bold">{product.name}</p>
+                  <p className="text-white text-lg font-bold capitalize">{product.name}</p>
                 </div>
               </Link>
             </Fragment>

@@ -13,7 +13,7 @@ const Loading = () => {
         transition={{ duration: 0.5 }}
         className="text-center"
       >
-        <h1 className="text-4xl font-bold mb-4 text-blue-500">Loading...</h1>
+        <h1 className="text-4xl font-bold mb-4 text-[#034d94]">Loading...</h1>
         <motion.div
           initial={{ rotate: 0 }}
           animate={{ rotate: 360 }}
