@@ -5,7 +5,7 @@ import { blogData } from "@/constants";
 import { LiaBlogSolid } from "react-icons/lia";
 const BlogPage = () => {
   return (
-    <div className="px-4 w-full h-full">
+    <div className="px-4 w-full h-full h-full md:min-h-screen">
       <div className="flex mt-4 md:mt-12 items-center md:justify-center gap-3">
         <LiaBlogSolid className="text-4xl text-[#034d94] font-bold" />
         <p className="font-semibold text-2xl text-[#034d94]">Our Blogs</p>
