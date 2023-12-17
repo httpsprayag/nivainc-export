@@ -57,14 +57,16 @@ export const Navbar = () => {
         />
       </div>
       <Sidebar
-        className="md:hidden bg-white"
+        className="md:hidden bg-white h-full p-3"
         visible={isOpen}
         onHide={() => setIsOpen(false)}
+        position="top"
+        blockScroll={true}
         closeIcon={
           <MdClose className="text-2xl text-[#034d94] m-5 outline-none border-none" />
         }
       >
-        <div className="grid gap-4 mt-5">
+        <div className="grid gap-4 ">
           {navLinks?.map((linkItem, id) => (
             <Link
               className="text-center text-[#034d94] text-xl"

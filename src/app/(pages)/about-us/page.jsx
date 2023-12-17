@@ -42,9 +42,10 @@ const AboutUs = () => {
             {/* Include the 6 points here */}
           </div>
           <div className="grid grid-cols-1 mt-4 sm:grid-cols-2 gap-3">
-            {aboutUsImages.map((imgUrl) => {
+            {aboutUsImages.map((imgUrl, index) => {
               return (
                 <img
+                  key={index}
                   src={imgUrl}
                   alt="#"
                   className="h-full w-full rounded-md"

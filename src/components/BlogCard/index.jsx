@@ -13,6 +13,7 @@ export const BlogCard = ({ title, blogImage, date, content, contentItems }) => {
         title={title}
         contentList={contentItems}
         handleClose={() => setVisible(false)}
+
       />
       <div className="max-w-md mx-auto bg-white rounded-md shadow-md shadow-blue-200 grid place-content-between">
         <img

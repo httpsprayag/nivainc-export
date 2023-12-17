@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <ImageCarousel />
       {/* landing  page */}
-      <section className="mt-8 md:px-8  px-4 text-justify py-6">
+      <section className="mt-8 md:px-8 px-4 text-justify py-6">
         <div className=" grid md:flex gap-3 md:justify-center lg:container lg:p-0 mx-auto text-lg md:text-xl">
           <div className="grid  md:place-items-center">
             <div className="flex flex-col gap-3 md:max-w-md sm:pr-4">
