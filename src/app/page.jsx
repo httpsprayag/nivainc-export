@@ -35,12 +35,10 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:pl-4 sm:grid-cols-2 gap-2">
             {landingImages?.map((url) => {
               return (
-                <Link key={url} href={url}>
-                  <img
-                    src={url}
-                    className="w-full h-48 object-cover rounded-lg"
-                  />
-                </Link>
+                <img
+                  src={url}
+                  className="w-full h-48 object-cover rounded-lg"
+                />
               );
             })}
           </div>

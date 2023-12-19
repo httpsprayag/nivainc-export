@@ -8,7 +8,7 @@ const CeramicTiles = () => {
     {
       name: "Ceramic tiles",
       url: "/assets/products/ceramicImg.jpeg",
-      size: "300 x 600/600 x 600 , 300 x 450",
+      size: "300 x 600,  600 x 600,  300 x 450",
     },
   ];
   return (

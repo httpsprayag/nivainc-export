@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import { MdOutlineProductionQuantityLimits } from "react-icons/md";
+import { products } from "@/constants";
 const ProductList = [
   {
     name: "Porcelain Tile",
@@ -62,7 +63,7 @@ const ProductsPage = () => {
           initial="hidden"
           animate="visible"
         >
-          {ProductList.map((product, index) => {
+          {products.map((product, index) => {
             return (
               <motion.div
                 key={index}
@@ -70,9 +71,9 @@ const ProductsPage = () => {
                 className="relative group h-[260px] md:h-[300px]"
                 whileHover={{ scale: 1.05 }}
               >
-                <Link href={`/products/${product.url}`} className="">
+                <Link href={`/products/${product.href}`} className="">
                   <img
-                    src={product.img}
+                    src={product.image}
                     className="rounded-md object-cover h-full w-[100%]"
                     alt={product.name}
                   />

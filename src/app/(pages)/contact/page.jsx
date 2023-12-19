@@ -159,7 +159,7 @@ const ContactUsPage = () => {
         </form>
         <div className="w-3/5 bg-[#034d94] hidden md:block"></div>
         <div className="w-full lg:w-1/2 mt-4 md:mt-0">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58846.88244217224!2d70.81559567118617!3d22.8050518803223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39598cd96ce15487%3A0x294863999340c94e!2sMorbi%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1701791309767!5m2!1sen!2sin" className="md:h-full h-[350px] w-full" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58846.88244217224!2d70.81559567118617!3d22.8050518803223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39598cd96ce15487%3A0x294863999340c94e!2sMorbi%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1701791309767!5m2!1sen!2sin" className="md:h-full h-[350px] w-full" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
 

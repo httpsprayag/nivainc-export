@@ -6,14 +6,14 @@ const porcelineImages = [
     size: "600 x 600",
   },
   {
-    name: "Onyx Carlo Beige",
-    url: "/assets/products/onyx-carlo.jpg",
-    size: "800 x 1600",
-  },
-  {
     name: "Calacatta-Marble",
     url: "/assets/products/CALACATTA MARBLE-3D.jpg",
     size: "600 x 1200",
+  },
+  {
+    name: "Onyx Carlo Beige",
+    url: "/assets/products/onyx-carlo.jpg",
+    size: "800 x 1600",
   },
   {
     name: "porceline product-4",
@@ -28,7 +28,7 @@ const porcelineImages = [
   {
     name: "Bali Grey",
     url: "/assets/products/BALI-GREY.jpg",
-    size: "3000 x 3000",
+    size: "300 x 600",
   },
 ];
 import React from "react";

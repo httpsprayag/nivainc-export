@@ -28,7 +28,7 @@ const countrImages = [
   {
     name: "porceline product-4",
     url: "/assets/images/counterImg5.png",
-    size: "1200 x 1200",
+    size: "Quartz Stone",
   },
 ];
 

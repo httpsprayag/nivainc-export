@@ -41,15 +41,15 @@ export const Footer = () => {
           <h1 className="font-semibold mb-2 text-[#034d94]  text-2xl ">
             Social Media Links
           </h1>
-          <Link href={"https://instagram.com/nivainc?igshid=MTNiYzNiMzkwZA%3D%3D&utm_source=qr"} className="flex items-center gap-2 py-1">
+          <Link target="_blank" href={"https://instagram.com/nivainc?igshid=MTNiYzNiMzkwZA%3D%3D&utm_source=qr"} className="flex items-center gap-2 py-1">
             <FaInstagram className="inline box-content text-[#034d94]  text-2xl hover:text-white transition" />
             <p>Instagram</p>
           </Link>
-          <Link href={"https://www.linkedin.com/in/dipak-patel-8908b7287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"} className="flex items-center gap-2 py-1">
+          <Link target="_blank" href={"https://www.linkedin.com/in/dipak-patel-8908b7287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"} className="flex items-center gap-2 py-1">
             <FaLinkedin className="inline box-content text-[#034d94]  text-2xl hover:text-white transition" />
             Linkedin
           </Link>
-          <Link href={"https://wa.me/+19452686122"} className="flex items-center gap-2 py-1">
+          <Link href={"https://wa.me/+19452686122"} target="_blank" className="flex items-center gap-2 py-1">
             <FaWhatsapp className="inline box-content text-[#034d94]  text-2xl hover:text-white transition" />
             Whatsapp
           </Link>
