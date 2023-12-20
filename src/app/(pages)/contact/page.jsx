@@ -37,11 +37,7 @@ const ContactUsPage = () => {
       query: Yup.string().required("Query is required"),
     }),
     onSubmit: async (values, { setSubmitting, isSubmitting, resetForm }) => {
-      // Handle form submission logic here
-      console.log("Form values :", values)
       const response = await axios.post("/api/email", values)
-      // console.log("response :", response?.data?.message)
-      // console.log(response?.data?.message)
       if (response?.data?.message.length > 0) {
         showSuccess()
       } else {

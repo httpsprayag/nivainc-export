@@ -1,7 +1,6 @@
 const { createTransport } = require('nodemailer')
 export async function POST(request) {
   const { name, contactNumber, email, query } = await request.json();
-  console.log({ name, email, contactNumber, query })
   const transporter = createTransport({
     service: 'gmail',
     auth: {
@@ -34,7 +33,6 @@ export async function POST(request) {
     await transporter.sendMail(mailOptions);
     return Response.json({ message: 'Email sent successfully' });
   } catch (error) {
-    console.error('Error sending email:', error);
     return Response.json({ message: 'Internal server error' });
   }
 }

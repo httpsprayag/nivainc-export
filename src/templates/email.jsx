@@ -1,5 +1,4 @@
 export const contactTemplate = ({ name, contactNumber, email, query }) => {
-  console.log("In template :", { name, contactNumber, email, query });
   return `
   <!DOCTYPE html>
   <html lang="en">
