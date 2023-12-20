@@ -1,5 +1,3 @@
-import { contactTemplate } from '@/templates/email';
-
 const { createTransport } = require('nodemailer')
 export async function POST(request) {
   const { name, contactNumber, email, query } = await request.json();
@@ -12,21 +10,31 @@ export async function POST(request) {
     },
   });
 
-  const emailOptions = {
-    to: process.env.NEXT_PUBLIC_EMAI,
-    from: email,
-    subject: "A new Querry has arrived",
-    html: contactTemplate({ name, email, contactNumber, query }),
+  // const emailOptions = {
+  //   to: process.env.NEXT_PUBLIC_EMAI,
+  //   from: email,
+  //   subject: "A new Querry has arrived",
+  //   html: contactTemplate({ name, email, contactNumber, query }),
+  // };
+
+  const mailOptions = {
+    from: email, // Use the email from the contact form
+    to: 'export@nivainc.com', // Replace with your Gmail address
+    subject: 'New Querry Has Arrived',
+    text: `
+      Name: ${name}
+      Contact Number: ${contactNumber}
+      Email: ${email}
+      Query: ${query}
+    `,
   };
 
-  const emailInfo = transporter.sendMail(emailOptions, function (error, _info) {
-    if (error) {
-      console.log("errorr while sending email : ", error);
-      return Response.json({ mesaage: 'something went wrong' })
-    } else {
-      return Response.json({ mesaage: 'Email Sent Successfully' })
-    }
-  });
-  console.log({ emailInfo })
-  return Response.json({ message: "success" })
+  try {
+    // Send the email
+    await transporter.sendMail(mailOptions);
+    return Response.json({ message: 'Email sent successfully' });
+  } catch (error) {
+    console.error('Error sending email:', error);
+    return Response.json({ message: 'Internal server error' });
+  }
 }
