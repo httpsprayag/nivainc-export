@@ -8,32 +8,32 @@ const ProductList = [
   {
     name: "Porcelain Tile",
     url: "porcelain-tile",
-    img: "/assets/products/porcelain-tile.png",
+    img: "/assets/porcelain-tile.png",
   },
   {
     name: "Adhesive Epoxy",
     url: "adhesive-epoxy",
-    img: "/assets/products/theAdhesiveaEpoxy.jpg",
+    img: "/assets/theAdhesiveaEpoxy.jpg",
   },
   {
     name: "Ceramic Tile",
     url: "ceramic-tile",
-    img: "/assets/products/ceramic-tile.jpg",
+    img: "/assets/ceramic-tile.jpg",
   },
   {
     name: "Outdoor pavers",
     url: "outdoor-pavers",
-    img: "/assets/products/counterTopsSlabs.png",
+    img: "/assets/counterTopsSlabs.png",
   },
   {
     name: "Counter Tops Slabs",
     url: "counter-tops-Slabs",
-    img: "/assets/products/outdoorPavers.png",
+    img: "/assets/outdoorPavers.png",
   },
   {
     name: "Subway Tile",
     url: "subway-tile",
-    img: "/assets/products/SubayTile.jpg",
+    img: "/assets/SubayTile.jpg",
   },
 ];
 
@@ -71,7 +71,7 @@ const ProductsPage = () => {
                 className="relative group h-[260px] md:h-[300px]"
                 whileHover={{ scale: 1.05 }}
               >
-                <Link href={`/products/${product.href}`} className="">
+                <Link href={`/${product.href}`} className="">
                   <img
                     src={product.image}
                     className="rounded-md object-cover h-full w-[100%]"

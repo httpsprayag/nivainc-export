@@ -2,32 +2,32 @@
 const porcelineImages = [
   {
     name: "Azuvi Silver",
-    url: "/assets/products/Azuvi-silver.jpg",
+    url: "/assets/Azuvi-silver.jpg",
     size: "600 x 600",
   },
   {
     name: "Calacatta-Marble",
-    url: "/assets/products/CALACATTA MARBLE-3D.jpg",
+    url: "/assets/CALACATTA MARBLE-3D.jpg",
     size: "600 x 1200",
   },
   {
     name: "Onyx Carlo Beige",
-    url: "/assets/products/onyx-carlo.jpg",
+    url: "/assets/onyx-carlo.jpg",
     size: "800 x 1600",
   },
   {
     name: "porceline product-4",
-    url: "/assets/products/proceline-4.jpeg",
+    url: "/assets/proceline-4.jpeg",
     size: "1200 x 1200",
   },
   {
     name: "BAITA-WOOD",
-    url: "/assets/products/BAITA-WOOD.jpg",
+    url: "/assets/BAITA-WOOD.jpg",
     size: "200 x 1200",
   },
   {
     name: "Bali Grey",
-    url: "/assets/products/BALI-GREY.jpg",
+    url: "/assets/BALI-GREY.jpg",
     size: "300 x 600",
   },
 ];
@@ -38,7 +38,9 @@ import { itemVariants, staggerVariants } from "@/constants";
 const PorcelainTile = () => {
   return (
     <div className="w-full pb-8 mt-6 md:mt-20">
-      <p className="md:text-center text-xl text-[#034d94] mb-6 md:mb-14 px-4">Porcelain Tiles</p>
+      <p className="md:text-center text-xl text-[#034d94] mb-6 md:mb-14 px-4">
+        Porcelain Tiles
+      </p>
       <motion.div
         className="grid sm:grid-cols-2 lg:grid-cols-3 lg:max-w-6xl mx-auto gap-4 px-4 lg:px-0 md:gap-10 "
         variants={staggerVariants}

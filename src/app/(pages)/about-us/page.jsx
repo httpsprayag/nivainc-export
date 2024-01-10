@@ -8,10 +8,10 @@ import CountUp from "react-countup";
 import { Heading } from "@/components";
 import { ImCircleRight } from "react-icons/im";
 const aboutUsImages = [
-  "assets/images/about1.png",
-  "assets/images/about2.png",
-  "assets/images/about3.png",
-  "assets/images/about4.png",
+  "assets/about1.png",
+  "assets/about2.png",
+  "assets/about3.png",
+  "assets/about4.png",
 ];
 
 const AboutUs = () => {
@@ -123,9 +123,7 @@ const AboutUs = () => {
           </div>
 
           {/* Vision Card */}
-          <div
-            className="bg-transparent border text-[#034d94] border-blue-600 p-4 shadow-blue-200 rounded-lg shadow-xl"
-          >
+          <div className="bg-transparent border text-[#034d94] border-blue-600 p-4 shadow-blue-200 rounded-lg shadow-xl">
             <div className="flex items-center gap-2">
               <AiFillEye className="text-[#034d94] text-2xl" />
               <h2 className="text-xl font-semibold">Vision</h2>

@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[644],{4254:function(e,t,r){Promise.resolve().then(r.bind(r,7955))},7955:function(e,t,r){"use strict";r.r(t);var s=r(7437),n=r(1396),o=r.n(n);r(2265);var a=r(3159);t.default=()=>(0,s.jsxs)("div",{className:"text-center mt-20 h-[calc(100vh-427px)] px-4 w-full",children:[(0,s.jsxs)("div",{className:"flex items-start gap-4 text-justify md:justify-center",children:[(0,s.jsx)("p",{className:"text-base md:text-xl font-light font-serif mb-4 text-[#034d94]",children:"For catalogs, please reach out to us on WhatsApp"}),(0,s.jsx)(o(),{target:"_blank",href:"https://wa.me/+19452686122",children:(0,s.jsx)(a.xpo,{className:"text-3xl text-[#034d94] cursor-pointer"})})]}),(0,s.jsx)("p",{className:"mt-4 font-black text-left md:text-center text-[#034d94]",children:"Click the WhatsApp icon to chat with us!"})]})},622:function(e,t,r){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var s=r(2265),n=Symbol.for("react.element"),o=Symbol.for("react.fragment"),a=Object.prototype.hasOwnProperty,c=s.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,l={key:!0,ref:!0,__self:!0,__source:!0};function q(e,t,r){var s,o={},i=null,f=null;for(s in void 0!==r&&(i=""+r),void 0!==t.key&&(i=""+t.key),void 0!==t.ref&&(f=t.ref),t)a.call(t,s)&&!l.hasOwnProperty(s)&&(o[s]=t[s]);if(e&&e.defaultProps)for(s in t=e.defaultProps)void 0===o[s]&&(o[s]=t[s]);return{$$typeof:n,type:e,key:i,ref:f,props:o,_owner:c.current}}t.Fragment=o,t.jsx=q,t.jsxs=q},7437:function(e,t,r){"use strict";e.exports=r(622)}},function(e){e.O(0,[420,524,971,472,744],function(){return e(e.s=4254)}),_N_E=e.O()}]);

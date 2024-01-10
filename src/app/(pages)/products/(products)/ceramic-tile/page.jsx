@@ -7,7 +7,7 @@ const CeramicTiles = () => {
   const ceramicTiles = [
     {
       name: "Ceramic tiles",
-      url: "/assets/products/ceramicImg.jpeg",
+      url: "/assets/ceramicImg.jpeg",
       size: "300 x 600,  600 x 600,  300 x 450",
     },
   ];

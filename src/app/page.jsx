@@ -33,9 +33,10 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-1 sm:pl-4 sm:grid-cols-2 gap-2">
-            {landingImages?.map((url) => {
+            {landingImages?.map((url, key) => {
               return (
                 <img
+                  key={key}
                   src={url}
                   className="w-full h-48 object-cover rounded-lg"
                 />
@@ -65,7 +66,9 @@ export default function Home() {
                   alt={product.name}
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-50 group-hover:opacity-100 transition duration-300 ease-in-out">
-                  <p className="text-white text-lg font-bold capitalize">{product.name}</p>
+                  <p className="text-white text-lg font-bold capitalize">
+                    {product.name}
+                  </p>
                 </div>
               </Link>
             </Fragment>

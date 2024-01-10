@@ -13,7 +13,7 @@ const navLinks = [
   },
   {
     name: "Products",
-    href: "/products",
+    href: "",
   },
   {
     name: "Catalog",
@@ -36,7 +36,7 @@ export const Navbar = () => {
       <div className="container mx-auto flex-row-reverse md:flex-row flex justify-between items-center px-5 md:px-10">
         <Link href="/">
           <img
-            src="/assets/icons/logo2.jpeg"
+            src="/assets/logo2.jpeg"
             className="w-20 h-14 md:w-32 md:h-24 border-none outline-none object-cover"
             alt=""
           />

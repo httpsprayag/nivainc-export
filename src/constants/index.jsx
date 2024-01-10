@@ -7,47 +7,47 @@ import {
 } from "react-icons/md";
 
 export const landingImages = [
-  "assets/images/landing-image-1.webp",
-  "assets/images/landing-image-2.webp",
-  "assets/images/landing-image-3.webp",
-  "assets/images/landing-image-4.webp",
+  "/assets/landing-image-1.webp",
+  "/assets/landing-image-2.webp",
+  "/assets/landing-image-3.webp",
+  "/assets/landing-image-4.webp",
 ];
 
 export const products = [
   {
     name: "porcelain-tile",
     href: "porcelain-tile",
-    image: "/assets/products/porcelain-tile.png",
+    image: "/assets/porcelain-tile.png",
     id: 1,
   },
   {
     name: "ceramic-tile",
     href: "ceramic-tile",
-    image: "/assets/products/ceramic-tile.jpg",
+    image: "/assets/ceramic-tile.jpg",
     id: 2,
   },
   {
     name: "Counter Tops & Slabs",
     href: "counter-tops-Slabs",
-    image: "/assets/products/outdoorPavers.png",
+    image: "/assets/outdoorPavers.png",
     id: 3,
   },
   {
     name: "outdoor-pavers",
     href: "outdoor-pavers",
-    image: "/assets/products/counterTopsSlabs.png",
+    image: "/assets/counterTopsSlabs.png",
     id: 4,
   },
   {
     name: "Subway Tile",
     href: "subway-tile",
-    image: "assets/products/SubayTile.jpg",
+    image: "assets/SubayTile.jpg",
     id: 5,
   },
   {
     name: "Tile Adhesive & Epoxy",
     href: "adhesive-epoxy",
-    image: "assets/products/theAdhesiveaEpoxy.jpg",
+    image: "assets/theAdhesiveaEpoxy.jpg",
     id: 6,
   },
 ];
@@ -71,11 +71,11 @@ export const countingData = [
 ];
 
 export const sliderImages = [
-  { src: "/assets/images/slider1.jpg" },
-  { src: "/assets/images/slider2.jpg" },
-  { src: "/assets/images/slider3.jpg" },
-  { src: "/assets/images/slider4.jpg" },
-  { src: "/assets/images/slider5.jpg" },
+  { src: "/assets/slider1.jpg" },
+  { src: "/assets/slider2.jpg" },
+  { src: "/assets/slider3.jpg" },
+  { src: "/assets/slider4.jpg" },
+  { src: "/assets/slider5.jpg" },
 ];
 
 export const staggerVariants = {
@@ -95,7 +95,7 @@ export const blogData = [
     content:
       "Welcome to Niva Inc, the epitome of elegance and sustainability in tile manufacturing. Our commitment goes beyond creating tiles; we craft timeless spaces that blend artistry with responsibility.",
     date: "05 Nov-2023",
-    blogImg: "/assets/images/blogImg1.jpg",
+    blogImg: "/assets/blogImg1.jpg",
   },
   {
     id: 2,
@@ -103,7 +103,7 @@ export const blogData = [
     content:
       "Morbi, Gujarat, evolved from traditional pottery to a major hub for ceramic production in the late 20th century. Abundant natural resources fueled technological advancements, making Morbi a global exporter of ceramic tiles and sanitary ware. The industry faced challenges, including environmental concerns, but adapted through diversification and sustainable practices. Morbi's ceramic sector significantly impacted the regional economy, providing employment and contributing to economic growth.",
     date: "15 July-2023",
-    blogImg: "/assets/images/blogImg2.png",
+    blogImg: "/assets/blogImg2.png",
     contentItems: (
       <>
         <ol title="Artisan Excellence:" className="list-disc">
@@ -162,7 +162,7 @@ export const blogData = [
     content:
       "Choosing between ceramic and porcelain tiles? Here's a .000brief breakdown:",
     date: "16 Feb-2023",
-    blogImg: "/assets/images/blogImg3.png",
+    blogImg: "/assets/blogImg3.png",
     contentItems: (
       <>
         <ol title="Artisan Excellence:" className="list-disc">

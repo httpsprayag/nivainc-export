@@ -7,16 +7,17 @@ import { itemVariants, staggerVariants } from "@/constants";
 const subwayImages = [
   {
     name: "Decor",
-    url: "/assets/images/subwayImg.jpg",
+    url: "/assets/subwayImg.jpg",
     size: "Subway Tile",
   },
 ];
 
-
 const SubwayTiles = () => {
   return (
     <div className="w-full pb-8 mt-6 md:mt-20 h-screen">
-      <p className="md:text-center text-xl text-[#034d94] mb-6 md:mb-14 px-4">Subway Tiles</p>
+      <p className="md:text-center text-xl text-[#034d94] mb-6 md:mb-14 px-4">
+        Subway Tiles
+      </p>
       <motion.div
         className="grid sm:grid-cols-2 lg:grid-cols-3 lg:max-w-6xl mx-auto gap-4 px-4 lg:px-0 md:gap-10 "
         variants={staggerVariants}
@@ -50,4 +51,3 @@ const SubwayTiles = () => {
 };
 
 export default SubwayTiles;
-

@@ -5,7 +5,7 @@ import { itemVariants, staggerVariants } from "@/constants";
 const adhesiveEpoxyImages = [
   {
     name: "Adhesive Epoxy",
-    url: "/assets/products/adhesive.jpg",
+    url: "/assets/adhesive.jpg",
     size: "Tile Adhesive",
   },
 ];
